@@ -1,10 +1,18 @@
 *The specifics of the requirements are subject to change. 
 
 Requirements:
--	Gather financial data for various industries and the S&P 500 given a certain time span.
--	A collection of companies will be used to represent industry sectors. 
+1.	Gather financial data for various industries and the S&P 500 given a certain time span.
+2.	A collection of companies will be used to represent industry sectors. 
 	The companies selected should be varied (market leaders/lagers), and have enough historical data to be usable. 
--	Variable selection is to be determined, but potential variables could be returns, beta value, dividends, debt, other ratios, ect. 
--	Given a dataset and a group of variables regression analysis should be performed in order to find relationships between depended and independent variables. 
+3.	Variable selection is to be determined, but potential variables could be returns, beta value, dividends, debt, other ratios, ect. 
+4.	Given a dataset and a group of variables regression analysis should be performed in order to find relationships between depended and independent variables. 
 	Comparisons can be performed on industry sectors and the market to find how they correlate with each other. 
--	Predictive analytics or variance/covariance matrices may also be used to obtain additional insights. 
+5.	Predictive analytics or variance/covariance matrices may also be used to obtain additional insights. 
+
+Requirement Priority Justification:
+	Our first priority is to find valid sources for our data. After this we will select the companies we wish to analyze and collect the required data. Then we must determine how to best preprocess the data. Once our data is collected and preprocessed we will begin our analysis and make comparisons between individual stocks and their sectors and the market.
+	
+Platforms/Frameworks:
+-	Python
+-	Jupyter Notebook
+-	Pycharm
