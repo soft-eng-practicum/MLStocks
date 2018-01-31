@@ -10,7 +10,9 @@ Requirements:
 5.	Predictive analytics or variance/covariance matrices may also be used to obtain additional insights. 
 
 Requirement Priority Justification:
-	Our first priority is to find valid sources for our data. After this we will select the companies we wish to analyze and collect the required data. Then we must determine how to best preprocess the data. Once our data is collected and preprocessed we will begin our analysis and make comparisons between individual stocks and their sectors and the market.
+	Our first priority is to find valid sources for our data. After this we will select the companies we wish to analyze and collect 
+the required data. Then we must determine how to best preprocess the data. Once our data is collected and preprocessed we will begin our 
+analysis and make comparisons between individual stocks and their sectors and the market.
 	
 Platforms/Frameworks:
 -	Python
