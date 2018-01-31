@@ -5,7 +5,8 @@ Requirements:
 2.	A collection of companies will be used to represent industry sectors. 
 	The companies selected should be varied (market leaders/lagers), and have enough historical data to be usable. 
 3.	Variable selection is to be determined, but potential variables could be returns, beta value, dividends, debt, other ratios, ect. 
-4.	Given a dataset and a group of variables regression analysis should be performed in order to find relationships between depended and independent variables. 
+4.	Given a dataset and a group of variables regression analysis should be performed in order to find 
+	relationships between depended and independent variables. 
 	Comparisons can be performed on industry sectors and the market to find how they correlate with each other. 
 5.	Predictive analytics or variance/covariance matrices may also be used to obtain additional insights. 
 
