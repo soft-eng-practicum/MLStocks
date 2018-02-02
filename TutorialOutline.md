@@ -30,8 +30,9 @@
 * TBA  
 
 ### Section 6:  
-##### Plot/Graph Library  
-* plot data  
+##### Data Analysis  
+* Preprocessing
+* plot data using py libraries
 * TBA  
 
 ### Section 7:  
