@@ -6,7 +6,7 @@
 **Average Performance:**  
 
 ### Samuel Berende
-#### Sector: 
+#### Sector: Information Technology	
 **High Performance:** _Nvidia_   
 **Low Performance:** _Cisco Systems_  
 **Average Performance:** _Autodesk_  
