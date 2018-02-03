@@ -7,10 +7,10 @@
 
 ### Samuel Berende
 #### Sector: 
-**High Performance:**  
-**Low Performance:**  
-**Average Performance:**  
-**Average Performance:**  
+**High Performance:** _Nvidia_   
+**Low Performance:** _Cisco Systems_  
+**Average Performance:** _Autodesk_  
+**Average Performance:** _Adobe Systems_  
 
 ### Zehra Siddiqui
 #### Sector: 
