@@ -1,9 +1,9 @@
 ### Jarrod Bailey
-#### Sector: 
-**High Performance:**  
-**Low Performance:**  
-**Average Performance:**  
-**Average Performance:**  
+#### Sector: Energy
+**High Performance:** HAL - Halliburton Company  
+**Low Performance:** APA - Apache Corporation  
+**Average Performance:** CVX - Chevron Corporation  
+**Average Performance:** XOM - Exxon Mobil Corporation  
 
 ### Samuel Berende
 #### Sector: Information Technology	
