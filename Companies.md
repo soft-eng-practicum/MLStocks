@@ -13,8 +13,11 @@
 **Average Performance:** _Adobe Systems_  
 
 ### Zehra Siddiqui
-#### Sector: Health Care 
+#### Sector: Health Care
 **High Performance:** ABT - Abbott Laboratories
-**Low Performance:**  ZBH - Zimmer Biomet Holdings 
+
+**Low Performance:** ZBH - Zimmer Biomet Holdings 
+
 **Average Performance:** JNJ - Johnson & Johnson
-**Average Performance:**  BAX - Baxter International Incorporated
+
+**Average Performance:** BAX - Baxter International Incorporated
