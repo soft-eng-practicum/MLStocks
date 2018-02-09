@@ -30,18 +30,22 @@
 * TBA  
 
 ### Section 6:  
-##### Data Analysis  
-* Preprocessing
-* plot data using py libraries
+##### Preprocessing  
+* Preprocessing techniques
+* 
 * TBA  
 
 ### Section 7:  
+##### Plotting in python  
+* Matplotlib.pyplot  
+
+### Section 8:  
 ##### Basic ML  
 * Cover 2-3 models  
 * Metrics  
 * TBA  
 
-### Section 8:  
+### Section 9:  
 ##### ML Model Optimization  
 * K-fold Cross Validation  
 * Grid Search  
