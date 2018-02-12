@@ -30,14 +30,14 @@
 * TBA  
 
 ### Section 6:  
-##### Preprocessing  
-* Preprocessing techniques
-* 
+##### Plotting
+* Matplotlib.pyplot  
+*   
 * TBA  
 
 ### Section 7:  
-##### Plotting in python  
-* Matplotlib.pyplot  
+##### Preprocessing 
+*  Preprocessing techniques   
 
 ### Section 8:  
 ##### Basic ML  
