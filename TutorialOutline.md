@@ -6,11 +6,15 @@
 ### Section 2:  
 ##### Python Basics - Quickly cover basic syntax of python  
 * Strings  
-* arrays  
+* Single/Multi-line comments
 * assignment  
-* operators  
+* operators ( remember to include exponents** and modolus! Keep dec when dividing!)
+* conditional statements
+* loops  
+* arrays  
 * dictionaries  
 * TBA  
+
 
 ### Section 3:  
 ##### Stock basics  
