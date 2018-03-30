@@ -7,10 +7,10 @@
 
 ### Samuel Berende
 #### Sector: Information Technology	
-**High Performance:** _Nvidia_   
-**Low Performance:** _Cisco Systems_  
-**Average Performance:** _Autodesk_  
-**Average Performance:** _Adobe Systems_  
+**High Performance:** NVDA - _Nvidia_   
+**Low Performance:** CSCO - _Cisco Systems_  
+**Average Performance:** ADSK - _Autodesk_  
+**Average Performance:** ADBE - _Adobe Systems_  
 
 ### Zehra Siddiqui
 #### Sector: Health Care
