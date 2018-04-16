@@ -11784,7 +11784,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>NumPy (Numerical Python) is an open source library for the Python programming language that is used to facilitate scientific computing and data analysis. The library allows for improved performance over native Python code due to the fact that a large percentage of NumPy is written in C, and fewer explicit loops are used in operations overall. At the center of this package there lies the NumPy array in addition to the complementary mathematical functions and tools that allows users to work with these objects. A NumPy array, or ndarray, is a uniform and multidimensional collection of elements that can be used to describing blocks of computer memory for future manipulation. Being able to convert information into numerical representations is fundamental to data science, and this data structure allows for the efficient storage and management of numerical arrays.</p>
-<p>More Information on NumPy: <a href="https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html">https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html</a></p>
+<p>More Information on NumPy: <a href="https://docs.scipy.org/doc/numpy-1.14.0/user/whatisnumpy.html">https://docs.scipy.org/doc/numpy-1.14.0/user/whatisnumpy.html</a></p>
 
 </div>
 </div>
@@ -11812,7 +11812,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[162]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">datetime</span> <span class="k">import</span> <span class="n">datetime</span> 
@@ -11863,8 +11863,8 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Pure Python elapsed time: 106340  microseconds
-NumPy elapsed time: 32581  microseconds
+<pre>Pure Python elapsed time: 109248  microseconds
+NumPy elapsed time: 46058  microseconds
 </pre>
 </div>
 </div>
@@ -11877,26 +11877,26 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Array-creation,-data-types,-and-other-attributes-of-ndarray">Array creation, data types, and other attributes of ndarray<a class="anchor-link" href="#Array-creation,-data-types,-and-other-attributes-of-ndarray">&#182;</a></h2><p><strong>Documentation: <a href="https://docs.scipy.org/doc/numpy-1.13.0/reference/">https://docs.scipy.org/doc/numpy-1.13.0/reference/</a></strong></p>
+<h2 id="Array-creation,-data-types,-and-other-attributes-of-ndarray">Array creation, data types, and other attributes of ndarray<a class="anchor-link" href="#Array-creation,-data-types,-and-other-attributes-of-ndarray">&#182;</a></h2><p><strong>Documentation: <a href="https://docs.scipy.org/doc/numpy-1.14.0/reference/index.html">https://docs.scipy.org/doc/numpy-1.14.0/reference/index.html</a></strong></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[163]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import NumPy</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
-<span class="c1"># Display NumPy&#39;s built-in documentation</span>
+<span class="c1"># Display NumPy&#39;s built-in documentation.</span>
 <span class="c1"># np?</span>
 
-<span class="c1"># Create array</span>
+<span class="c1"># Create an array.</span>
 <span class="n">array</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 
-<span class="c1"># Display its data type</span>
+<span class="c1"># Display its data type.</span>
 <span class="n">array</span><span class="o">.</span><span class="n">dtype</span>
 </pre></div>
 
@@ -11910,7 +11910,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[26]:</div>
+<div class="prompt output_prompt">Out[163]:</div>
 
 
 
@@ -11927,10 +11927,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[164]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display array</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display array.</span>
 <span class="n">array</span>
 </pre></div>
 
@@ -11944,7 +11944,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[27]:</div>
+<div class="prompt output_prompt">Out[164]:</div>
 
 
 
@@ -11961,10 +11961,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[165]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display shape of array (one-dimensional)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display shape of array (one-dimensional).</span>
 <span class="n">array</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
@@ -11978,7 +11978,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[28]:</div>
+<div class="prompt output_prompt">Out[165]:</div>
 
 
 
@@ -11995,10 +11995,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[166]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a two by five two-dimensional array</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a two by five two-dimensional array.</span>
 <span class="n">twoDimArray</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
 <span class="n">twoDimArray</span>
 </pre></div>
@@ -12013,7 +12013,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[29]:</div>
+<div class="prompt output_prompt">Out[166]:</div>
 
 
 
@@ -12031,7 +12031,7 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[167]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 2x5 shape</span>
@@ -12048,7 +12048,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[30]:</div>
+<div class="prompt output_prompt">Out[167]:</div>
 
 
 
@@ -12065,14 +12065,14 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[168]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Another way to create a multi-dimensional array</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Another way to create a multi-dimensional array.</span>
 <span class="n">tda</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">5</span><span class="p">)])</span> 
 <span class="nb">print</span><span class="p">(</span><span class="n">tda</span><span class="p">)</span>
 
-<span class="c1"># Display the shape of the array</span>
+<span class="c1"># Display the shape of the array.</span>
 <span class="n">tda</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
@@ -12098,7 +12098,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[31]:</div>
+<div class="prompt output_prompt">Out[168]:</div>
 
 
 
@@ -12124,7 +12124,7 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[169]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># View array() function documentation</span>
@@ -12138,10 +12138,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[170]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create array from Python list</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create array from Python list.</span>
 <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
 </pre></div>
 
@@ -12155,7 +12155,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[33]:</div>
+<div class="prompt output_prompt">Out[170]:</div>
 
 
 
@@ -12172,10 +12172,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[171]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Specify data type upon creation</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Specify data type upon creation.</span>
 <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;float32&#39;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 <span class="n">x</span><span class="o">.</span><span class="n">dtype</span>
@@ -12202,7 +12202,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[34]:</div>
+<div class="prompt output_prompt">Out[171]:</div>
 
 
 
@@ -12219,10 +12219,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[172]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Creates an array that starts at 0 and ends at 100 going by 10</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Creates an array that starts at 0 and ends at 100 going by 10.</span>
 <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
@@ -12236,7 +12236,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[35]:</div>
+<div class="prompt output_prompt">Out[172]:</div>
 
 
 
@@ -12253,10 +12253,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[173]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Creates an array of ten values evenly spaced between 0 and 1</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Creates an array of ten values evenly spaced between 0 and 1.</span>
 <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
@@ -12270,7 +12270,7 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[36]:</div>
+<div class="prompt output_prompt">Out[173]:</div>
 
 
 
@@ -12288,10 +12288,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[174]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a 5x5 array of random integers from 0 to 5</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a 5x5 array of random integers from 0 to 5.</span>
 <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
 </pre></div>
 
@@ -12305,17 +12305,17 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[37]:</div>
+<div class="prompt output_prompt">Out[174]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[3, 4, 3, 1, 3],
-       [1, 3, 3, 0, 0],
-       [4, 0, 2, 0, 2],
-       [2, 2, 4, 4, 3],
-       [0, 1, 3, 2, 3]])</pre>
+<pre>array([[1, 2, 2, 4, 0],
+       [1, 4, 4, 3, 1],
+       [2, 2, 4, 0, 4],
+       [3, 2, 2, 1, 1],
+       [2, 1, 3, 3, 0]])</pre>
 </div>
 
 </div>
@@ -12326,10 +12326,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[175]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a 10x5 array of normally distributed random values with a mean of 0 and standard deviation of 1</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a 10x5 array of normally distributed random values with a mean of 0 and standard deviation of 1.</span>
 <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
 </pre></div>
 
@@ -12343,22 +12343,22 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[38]:</div>
+<div class="prompt output_prompt">Out[175]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[-0.75912251,  0.51297446,  0.26987208,  0.21508058,  0.75017378],
-       [ 1.27150584, -0.59740167,  0.48767764, -0.53387883, -0.38768673],
-       [-0.07151322, -0.52132965,  0.52198897, -0.58699079, -1.11940404],
-       [ 0.95314079,  1.43165464,  0.5120382 , -1.97728554, -1.16689269],
-       [-0.27643754,  0.39811053, -0.24823089,  1.41217947, -0.75093265],
-       [ 2.59800325, -0.5050072 ,  0.92205687,  1.48540426,  2.67751231],
-       [ 1.55312121,  1.05565036,  0.76712842,  0.45089139, -0.87153357],
-       [-0.41409133,  1.00510306,  1.0148198 , -0.46372303, -1.62632692],
-       [ 0.66605148, -1.29685507, -0.76276359,  0.38063723, -0.93959441],
-       [ 0.59835732,  0.15882198,  0.76486361, -0.6097947 , -0.98004447]])</pre>
+<pre>array([[-1.5263535 ,  0.95769227, -0.64439337, -0.33884374, -0.50790793],
+       [ 1.29051123,  2.09399953,  1.17231208,  1.2146431 , -0.48548899],
+       [ 0.00986596, -0.48109211, -0.39999843, -0.45388237,  0.30274371],
+       [ 0.15593379,  1.09698043, -1.13820226, -0.27714674, -0.90512326],
+       [-2.10062543, -1.94215049, -0.93516655,  0.65370888, -0.56461481],
+       [-1.23414128,  0.43355438,  0.16492617, -1.18735162,  0.42943835],
+       [ 0.67909232,  0.39775604, -0.26164618, -0.42964638,  2.00648395],
+       [-0.41362618,  0.14898142, -0.29176936, -0.60358076,  2.40216644],
+       [ 0.38028284,  0.44897653, -0.97568817, -0.13850516,  1.44084981],
+       [ 1.28434622,  0.5106246 , -0.43228005, -0.21144603, -1.01512728]])</pre>
 </div>
 
 </div>
@@ -12369,10 +12369,10 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[176]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Creating a three-dimensional array of two 5x5 arrays with random integer values from 0 through 9</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Creating a three-dimensional array of two 5x5 arrays with random integer values from 0 through 9.</span>
 <span class="n">threeDimArray</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span> 
 <span class="n">threeDimArray</span>
 </pre></div>
@@ -12387,23 +12387,23 @@ NumPy elapsed time: 32581  microseconds
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[39]:</div>
+<div class="prompt output_prompt">Out[176]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[[3, 1, 6, 7, 1],
-        [7, 3, 2, 7, 8],
-        [6, 3, 6, 4, 3],
-        [3, 3, 4, 1, 6],
-        [4, 5, 8, 8, 1]],
+<pre>array([[[4, 8, 7, 1, 7],
+        [7, 4, 1, 6, 0],
+        [3, 0, 0, 6, 2],
+        [0, 8, 0, 1, 5],
+        [2, 6, 0, 1, 8]],
 
-       [[1, 0, 2, 0, 7],
-        [2, 3, 1, 3, 0],
-        [2, 9, 8, 4, 2],
-        [3, 1, 3, 2, 1],
-        [1, 5, 6, 5, 5]]])</pre>
+       [[8, 3, 6, 4, 0],
+        [3, 7, 3, 5, 2],
+        [0, 2, 0, 6, 2],
+        [4, 4, 0, 1, 8],
+        [5, 1, 1, 0, 9]]])</pre>
 </div>
 
 </div>
@@ -12414,7 +12414,7 @@ NumPy elapsed time: 32581  microseconds
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[177]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Array Attributes</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
@@ -12456,10 +12456,10 @@ Total size (in bytes) of the array: 200 bytes
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[178]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Reshaping array</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Reshaping array.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">threeDimArray</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
 </pre></div>
 
@@ -12477,11 +12477,11 @@ Total size (in bytes) of the array: 200 bytes
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[3 1 6 7 1 7 3 2 7 8]
- [6 3 6 4 3 3 3 4 1 6]
- [4 5 8 8 1 1 0 2 0 7]
- [2 3 1 3 0 2 9 8 4 2]
- [3 1 3 2 1 1 5 6 5 5]]
+<pre>[[4 8 7 1 7 7 4 1 6 0]
+ [3 0 0 6 2 0 8 0 1 5]
+ [2 6 0 1 8 8 3 6 4 0]
+ [3 7 3 5 2 0 2 0 6 2]
+ [4 4 0 1 8 5 1 1 0 9]]
 </pre>
 </div>
 </div>
@@ -12494,7 +12494,7 @@ Total size (in bytes) of the array: 200 bytes
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>More Information on array creation: <a href="https://docs.scipy.org/doc/numpy-1.13.0/user/basics.creation.html">https://docs.scipy.org/doc/numpy-1.13.0/user/basics.creation.html</a></strong></p>
+<p><strong>More Information on array creation: <a href="https://docs.scipy.org/doc/numpy-1.14.0/user/basics.creation.html">https://docs.scipy.org/doc/numpy-1.14.0/user/basics.creation.html</a></strong></p>
 
 </div>
 </div>
@@ -12605,20 +12605,20 @@ Total size (in bytes) of the array: 200 bytes
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Selecting-Elements">Selecting Elements<a class="anchor-link" href="#Selecting-Elements">&#182;</a></h2><p><strong>Documentation: <a href="https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html">https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html</a></strong></p>
+<h2 id="Selecting-Elements">Selecting Elements<a class="anchor-link" href="#Selecting-Elements">&#182;</a></h2><p><strong>Documentation: <a href="https://docs.scipy.org/doc/numpy-1.14.0/reference/arrays.indexing.html">https://docs.scipy.org/doc/numpy-1.14.0/reference/arrays.indexing.html</a></strong></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[179]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 1D Array</span>
 <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
 
-<span class="c1"># Display index one</span>
+<span class="c1"># Display index one.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 
@@ -12647,14 +12647,14 @@ Total size (in bytes) of the array: 200 bytes
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[180]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 2D Array</span>
 <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> 
               <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]])</span>
 
-<span class="c1"># Display element at certain indices</span>
+<span class="c1"># Display element at certain indices.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
@@ -12689,7 +12689,7 @@ Total size (in bytes) of the array: 200 bytes
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[181]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 3D Array</span>
@@ -12697,7 +12697,7 @@ Total size (in bytes) of the array: 200 bytes
 
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 
-<span class="c1"># Display the first index of the second element in the 3rd array</span>
+<span class="c1"># Display the first index of the second element in the 3rd array.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span>
@@ -12720,17 +12720,17 @@ Total size (in bytes) of the array: 200 bytes
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[[2 0]
-  [7 1]]
+<pre>[[[2 8]
+  [8 3]]
 
- [[4 6]
-  [7 2]]
+ [[9 9]
+  [8 7]]
 
- [[0 1]
-  [4 5]]] 
+ [[5 9]
+  [8 9]]] 
 
-4
-6
+8
+9
 </pre>
 </div>
 </div>
@@ -12749,7 +12749,7 @@ Total size (in bytes) of the array: 200 bytes
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[182]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 1D Array</span>
@@ -12808,7 +12808,7 @@ Reverse array:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[183]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 2D Array</span>
@@ -12838,26 +12838,26 @@ Reverse array:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[4 7 9 5 8 6]
- [9 1 3 2 3 0]
- [5 6 1 1 5 5]
- [4 5 9 6 4 4]] 
+<pre>[[4 3 3 4 4 8]
+ [5 7 3 7 9 4]
+ [0 8 9 1 5 9]
+ [9 2 6 4 6 0]] 
 
 Two rows, four columns:
- [[4 7 9 5]
- [9 1 3 2]] 
+ [[4 3 3 4]
+ [5 7 3 7]] 
 
 First row:
- [4 7 9 5 8 6] 
+ [4 3 3 4 4 8] 
 
 Third column:
- [9 3 1 9] 
+ [3 3 9 6] 
 
 Reverse array:
- [[4 4 6 9 5 4]
- [5 5 1 1 6 5]
- [0 3 2 3 1 9]
- [6 8 5 9 7 4]] 
+ [[0 6 4 6 2 9]
+ [9 5 1 9 8 0]
+ [4 9 7 3 7 5]
+ [8 4 4 3 3 4]] 
 
 </pre>
 </div>
@@ -12878,13 +12878,13 @@ Reverse array:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[184]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Two rows, two columns sub array from x:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">x</span><span class="p">[:</span><span class="mi">2</span><span class="p">,</span> <span class="p">:</span><span class="mi">2</span><span class="p">],</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="n">xSub</span> <span class="o">=</span> <span class="n">x</span><span class="p">[:</span><span class="mi">2</span><span class="p">,</span> <span class="p">:</span><span class="mi">2</span><span class="p">]</span>
 
-<span class="c1"># Chnage element</span>
+<span class="c1"># Change element</span>
 <span class="n">xSub</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">11</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </pre></div>
@@ -12904,13 +12904,13 @@ Reverse array:
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Two rows, two columns sub array from x:
- [[4 7]
- [9 1]] 
+ [[4 3]
+ [5 7]] 
 
-[[ 4 11  9  5  8  6]
- [ 9  1  3  2  3  0]
- [ 5  6  1  1  5  5]
- [ 4  5  9  6  4  4]]
+[[ 4 11  3  4  4  8]
+ [ 5  7  3  7  9  4]
+ [ 0  8  9  1  5  9]
+ [ 9  2  6  4  6  0]]
 </pre>
 </div>
 </div>
@@ -12921,7 +12921,7 @@ Reverse array:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[185]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 3D Array</span>
@@ -12997,7 +12997,7 @@ Last matrix, first column reversed:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[186]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">xSubCopy</span> <span class="o">=</span> <span class="n">x</span><span class="p">[:</span><span class="mi">2</span><span class="p">,</span> <span class="p">:</span><span class="mi">2</span><span class="p">,</span> <span class="p">:</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -13064,13 +13064,13 @@ Last matrix, first column reversed:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[187]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">threeDimArray</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span> 
 <span class="nb">print</span><span class="p">(</span><span class="n">threeDimArray</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 
-<span class="c1"># Reshaping array</span>
+<span class="c1"># Reshaping array.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">threeDimArray</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">8</span><span class="p">),</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 
@@ -13088,34 +13088,34 @@ Last matrix, first column reversed:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[[1 4 7 0]
-  [2 7 5 3]
-  [7 8 9 1]
-  [8 5 0 7]]
+<pre>[[[9 5 4 1]
+  [4 6 5 9]
+  [7 8 4 7]
+  [7 7 8 5]]
 
- [[9 9 0 9]
-  [2 3 3 6]
-  [1 5 1 4]
-  [3 8 1 6]]
+ [[8 3 4 0]
+  [9 1 7 9]
+  [4 5 0 0]
+  [4 8 0 4]]
 
- [[9 7 3 5]
-  [8 4 9 7]
-  [9 4 0 5]
-  [9 4 8 2]]
+ [[0 4 7 6]
+  [7 7 6 9]
+  [2 8 6 2]
+  [2 7 5 2]]
 
- [[7 3 1 1]
-  [5 8 1 0]
-  [3 1 6 5]
-  [8 8 1 6]]] 
+ [[4 3 0 6]
+  [7 0 0 1]
+  [1 8 0 8]
+  [8 3 9 5]]] 
 
-[[1 4 7 0 2 7 5 3]
- [7 8 9 1 8 5 0 7]
- [9 9 0 9 2 3 3 6]
- [1 5 1 4 3 8 1 6]
- [9 7 3 5 8 4 9 7]
- [9 4 0 5 9 4 8 2]
- [7 3 1 1 5 8 1 0]
- [3 1 6 5 8 8 1 6]] 
+[[9 5 4 1 4 6 5 9]
+ [7 8 4 7 7 7 8 5]
+ [8 3 4 0 9 1 7 9]
+ [4 5 0 0 4 8 0 4]
+ [0 4 7 6 7 7 6 9]
+ [2 8 6 2 2 7 5 2]
+ [4 3 0 6 7 0 0 1]
+ [1 8 0 8 8 3 9 5]] 
 
 </pre>
 </div>
@@ -13127,11 +13127,11 @@ Last matrix, first column reversed:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[188]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Other ways to reshape</span>
-<span class="c1"># These modifiy the array they operate on</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Other ways to reshape:</span>
+<span class="c1"># These modifiy the array they operate on.</span>
 <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span> 
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 
@@ -13159,33 +13159,33 @@ Last matrix, first column reversed:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[[8 1 1 9]
-  [5 7 0 5]
-  [2 7 9 2]
-  [2 5 8 5]]
+<pre>[[[7 5 3 6]
+  [4 4 6 8]
+  [7 3 7 2]
+  [1 2 2 1]]
 
- [[6 4 6 1]
-  [0 5 2 8]
-  [6 0 3 7]
-  [3 2 3 5]]] 
+ [[1 5 2 4]
+  [4 6 6 2]
+  [8 2 3 9]
+  [6 8 8 9]]] 
 
 Shape:
- [[8 1 1 9 5 7 0 5]
- [2 7 9 2 2 5 8 5]
- [6 4 6 1 0 5 2 8]
- [6 0 3 7 3 2 3 5]] 
+ [[7 5 3 6 4 4 6 8]
+ [7 3 7 2 1 2 2 1]
+ [1 5 2 4 4 6 6 2]
+ [8 2 3 9 6 8 8 9]] 
 
-[[[4 3]
-  [4 9]
-  [4 2]]
+[[[2 8]
+  [4 0]
+  [3 8]]
 
- [[2 1]
-  [0 9]
-  [6 8]]] 
+ [[4 9]
+  [3 0]
+  [7 8]]] 
 
 Resize:
- [[4 3 4 9 4 2]
- [2 1 0 9 6 8]]
+ [[2 8 4 0 3 8]
+ [4 9 3 0 7 8]]
 </pre>
 </div>
 </div>
@@ -13205,7 +13205,7 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[189]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span> 
@@ -13226,17 +13226,17 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[[3 7 1]
-  [1 2 8]
-  [7 1 3]]
+<pre>[[[4 3 6]
+  [2 7 5]
+  [5 0 7]]
 
- [[3 2 8]
-  [3 1 2]
-  [0 8 4]]
+ [[6 7 4]
+  [6 7 3]
+  [7 5 2]]
 
- [[9 3 3]
-  [3 2 3]
-  [6 7 1]]]
+ [[8 8 2]
+  [5 1 2]
+  [4 7 3]]]
 </pre>
 </div>
 </div>
@@ -13247,7 +13247,7 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[190]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ravel</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -13267,7 +13267,7 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[3 7 1 1 2 8 7 1 3 3 2 8 3 1 2 0 8 4 9 3 3 3 2 3 6 7 1]
+<pre>[4 3 6 2 7 5 5 0 7 6 7 4 6 7 3 7 5 2 8 8 2 5 1 2 4 7 3]
 </pre>
 </div>
 </div>
@@ -13287,7 +13287,7 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[191]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span> 
@@ -13308,7 +13308,7 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[9 4 5 8 2 3 8 4]
+<pre>[9 6 8 3 0 6 3 4]
 </pre>
 </div>
 </div>
@@ -13337,13 +13337,13 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[192]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span> 
 <span class="n">y</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">1</span>
 
-<span class="c1"># Stacks arrays horizontally </span>
+<span class="c1"># Stacks arrays horizontally. </span>
 <span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">((</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
@@ -13366,17 +13366,17 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[9 2 0]
- [5 1 7]
- [3 7 2]] 
+<pre>[[5 8 8]
+ [1 1 6]
+ [8 7 0]] 
 
-[[ 8  1 -1]
- [ 4  0  6]
- [ 2  6  1]] 
+[[ 4  7  7]
+ [ 0  0  5]
+ [ 7  6 -1]] 
 
-[[ 9  2  0  8  1 -1]
- [ 5  1  7  4  0  6]
- [ 3  7  2  2  6  1]]
+[[ 5  8  8  4  7  7]
+ [ 1  1  6  0  0  5]
+ [ 8  7  0  7  6 -1]]
 </pre>
 </div>
 </div>
@@ -13396,13 +13396,13 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[193]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span> 
 <span class="n">y</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">1</span>
 
-<span class="c1"># Stacks arrays vertically </span>
+<span class="c1"># Stacks arrays vertically. </span>
 <span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
@@ -13425,20 +13425,20 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[1 8 4]
- [0 7 7]
- [1 6 0]] 
+<pre>[[9 2 6]
+ [4 9 8]
+ [8 5 2]] 
 
-[[ 0  7  3]
- [-1  6  6]
- [ 0  5 -1]] 
+[[8 1 5]
+ [3 8 7]
+ [7 4 1]] 
 
-[[ 1  8  4]
- [ 0  7  7]
- [ 1  6  0]
- [ 0  7  3]
- [-1  6  6]
- [ 0  5 -1]]
+[[9 2 6]
+ [4 9 8]
+ [8 5 2]
+ [8 1 5]
+ [3 8 7]
+ [7 4 1]]
 </pre>
 </div>
 </div>
@@ -13458,13 +13458,13 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[194]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span> 
 <span class="n">y</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">1</span>
 
-<span class="c1"># Stacks arrays depth-wise along the third axis </span>
+<span class="c1"># Stacks arrays depth-wise along the third axis.</span>
 <span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dstack</span><span class="p">((</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
@@ -13485,25 +13485,25 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[8 8 8]
- [4 4 9]
- [9 9 1]] 
+<pre>[[4 9 4]
+ [6 1 2]
+ [1 9 4]] 
 
-[[7 7 7]
- [3 3 8]
- [8 8 0]] 
+[[3 8 3]
+ [5 0 1]
+ [0 8 3]] 
 
-[[[8 7]
-  [8 7]
-  [8 7]]
-
- [[4 3]
-  [4 3]
-  [9 8]]
-
- [[9 8]
+[[[4 3]
   [9 8]
-  [1 0]]]
+  [4 3]]
+
+ [[6 5]
+  [1 0]
+  [2 1]]
+
+ [[1 0]
+  [9 8]
+  [4 3]]]
 </pre>
 </div>
 </div>
@@ -13523,19 +13523,19 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[195]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span> 
 <span class="n">y</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
 
-<span class="c1"># Stacks one-dimensional arrays as columns to create a two-dimensional array </span>
+<span class="c1"># Stacks one-dimensional arrays as columns to create a two-dimensional array.</span>
 <span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">column_stack</span><span class="p">((</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
 
-<span class="c1"># Two-dimensional arrays are stacked in the same way that hstack stacks them</span>
+<span class="c1"># Two-dimensional arrays are stacked in the same way that hstack stacks them.</span>
 </pre></div>
 
 </div>
@@ -13552,20 +13552,20 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[8 1 2 8 4 2 6 3 5 4] 
+<pre>[5 5 0 3 2 3 1 9 8 9] 
 
-[9 2 3 9 5 3 7 4 6 5] 
+[ 6  6  1  4  3  4  2 10  9 10] 
 
-[[8 9]
- [1 2]
- [2 3]
- [8 9]
- [4 5]
- [2 3]
- [6 7]
- [3 4]
- [5 6]
- [4 5]]
+[[ 5  6]
+ [ 5  6]
+ [ 0  1]
+ [ 3  4]
+ [ 2  3]
+ [ 3  4]
+ [ 1  2]
+ [ 9 10]
+ [ 8  9]
+ [ 9 10]]
 </pre>
 </div>
 </div>
@@ -13576,19 +13576,19 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[196]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span> 
 <span class="n">y</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
 
-<span class="c1"># Stacks one-dimensional arrays as rows to create a two-dimensional array </span>
+<span class="c1"># Stacks one-dimensional arrays as rows to create a two-dimensional array .</span>
 <span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">row_stack</span><span class="p">((</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
 
-<span class="c1"># Two-dimensional arrays are stacked in the same way that vstack stacks them</span>
+<span class="c1"># Two-dimensional arrays are stacked in the same way that vstack stacks them.</span>
 </pre></div>
 
 </div>
@@ -13605,12 +13605,12 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[4 2 2 0 4 4 0 0 8 0] 
+<pre>[2 7 1 1 6 2 4 1 3 5] 
 
-[5 3 3 1 5 5 1 1 9 1] 
+[3 8 2 2 7 3 5 2 4 6] 
 
-[[4 2 2 0 4 4 0 0 8 0]
- [5 3 3 1 5 5 1 1 9 1]]
+[[2 7 1 1 6 2 4 1 3 5]
+ [3 8 2 2 7 3 5 2 4 6]]
 </pre>
 </div>
 </div>
@@ -13639,13 +13639,13 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[197]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span> 
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 
-<span class="c1"># Splits the array along its horizontal axis into n pieces of the same size and shape</span>
+<span class="c1"># Splits the array along its horizontal axis into n pieces of the same size and shape.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">hsplit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
 </pre></div>
 
@@ -13663,15 +13663,15 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[7 6 7 0]
- [9 7 3 6]
- [0 5 5 8]] 
+<pre>[[8 2 2 8]
+ [1 4 4 9]
+ [5 5 3 0]] 
 
-[array([[7, 6],
-       [9, 7],
-       [0, 5]]), array([[7, 0],
-       [3, 6],
-       [5, 8]])]
+[array([[8, 2],
+       [1, 4],
+       [5, 5]]), array([[2, 8],
+       [4, 9],
+       [3, 0]])]
 </pre>
 </div>
 </div>
@@ -13691,13 +13691,13 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[198]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span> 
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 
-<span class="c1"># Splits the array along its vertical axis into n pieces of the same size and shape</span>
+<span class="c1"># Splits the array along its vertical axis into n pieces of the same size and shape.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">vsplit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
 </pre></div>
 
@@ -13715,11 +13715,11 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[4 4 1 2 4 7]
- [8 8 1 5 5 2]
- [0 6 8 3 0 0]] 
+<pre>[[1 7 6 9 7 9]
+ [7 2 0 9 8 3]
+ [9 4 0 3 9 6]] 
 
-[array([[4, 4, 1, 2, 4, 7]]), array([[8, 8, 1, 5, 5, 2]]), array([[0, 6, 8, 3, 0, 0]])]
+[array([[1, 7, 6, 9, 7, 9]]), array([[7, 2, 0, 9, 8, 3]]), array([[9, 4, 0, 3, 9, 6]])]
 </pre>
 </div>
 </div>
@@ -13739,13 +13739,13 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[199]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span> 
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 
-<span class="c1"># Splits the array depth-wise along the third axis into n pieces of the same size and shape</span>
+<span class="c1"># Splits the array depth-wise along the third axis into n pieces of the same size and shape.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dsplit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
 </pre></div>
 
@@ -13763,39 +13763,39 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[[8 7 0 4]
-  [9 9 9 7]
-  [9 3 2 0]]
+<pre>[[[6 2 6 4]
+  [1 4 1 5]
+  [2 3 5 2]]
 
- [[8 3 5 1]
-  [4 3 7 9]
-  [8 1 8 4]]] 
+ [[1 2 5 2]
+  [7 0 9 2]
+  [9 6 2 9]]] 
 
-[array([[[8],
-        [9],
-        [9]],
-
-       [[8],
-        [4],
-        [8]]]), array([[[7],
-        [9],
-        [3]],
-
-       [[3],
-        [3],
-        [1]]]), array([[[0],
-        [9],
+[array([[[6],
+        [1],
         [2]],
 
-       [[5],
-        [7],
-        [8]]]), array([[[4],
-        [7],
-        [0]],
-
        [[1],
+        [7],
+        [9]]]), array([[[2],
+        [4],
+        [3]],
+
+       [[2],
+        [0],
+        [6]]]), array([[[6],
+        [1],
+        [5]],
+
+       [[5],
         [9],
-        [4]]])]
+        [2]]]), array([[[4],
+        [5],
+        [2]],
+
+       [[2],
+        [2],
+        [9]]])]
 </pre>
 </div>
 </div>
@@ -13814,21 +13814,21 @@ Resize:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[200]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span> 
 <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 
-<span class="c1"># Convert to single precision float</span>
+<span class="c1"># Convert to single precision float.</span>
 <span class="n">f</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 
-<span class="c1"># Convert to string</span>
+<span class="c1"># Convert to string.</span>
 <span class="n">s</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">str</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 
-<span class="c1"># Convert to complex number</span>
+<span class="c1"># Convert to complex number.</span>
 <span class="n">c</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">complex</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
 </pre></div>
@@ -13847,10 +13847,10 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[8 0 4 7 9]
-[8. 0. 4. 7. 9.]
-[&#39;8&#39; &#39;0&#39; &#39;4&#39; &#39;7&#39; &#39;9&#39;]
-[8.+0.j 0.+0.j 4.+0.j 7.+0.j 9.+0.j]
+<pre>[7 3 9 6 6]
+[7. 3. 9. 6. 6.]
+[&#39;7&#39; &#39;3&#39; &#39;9&#39; &#39;6&#39; &#39;6&#39;]
+[7.+0.j 3.+0.j 9.+0.j 6.+0.j 6.+0.j]
 </pre>
 </div>
 </div>
@@ -13863,21 +13863,22 @@ Resize:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Statistical-Functions">Statistical Functions<a class="anchor-link" href="#Statistical-Functions">&#182;</a></h2><p><strong>Documentation: <a href="https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.statistics.html">https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.statistics.html</a></strong></p>
+<h2 id="Statistical-Functions">Statistical Functions<a class="anchor-link" href="#Statistical-Functions">&#182;</a></h2><p><strong>Documentation: <a href="https://docs.scipy.org/doc/numpy-1.14.0/reference/routines.statistics.html">https://docs.scipy.org/doc/numpy-1.14.0/reference/routines.statistics.html</a></strong></p>
+<p><strong>Documentation: <a href="https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.loadtxt.html">https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.loadtxt.html</a></strong></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[201]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
-<span class="c1"># Loads the data from sample_data.csv into an array</span>
-<span class="c1"># Stops at close price</span>
-<span class="n">data</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s1">&#39;sample_data.csv&#39;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="n">usecols</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,),</span> <span class="n">unpack</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1"># Loads the data from sample_data.csv into an array.</span>
+<span class="c1"># Skips the first row and uses the closing price column.</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s1">&#39;tesla_sample_data.csv&#39;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">usecols</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">unpack</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <span class="c1"># Computes the median</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Median:&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">median</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
@@ -13912,12 +13913,12 @@ Resize:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Median: 352.055
-Mean: 351.0376666666667
-Average: 351.0376666666667
-Variance: 50.126517888888884
-Minimum: 336.1
-Maximum: 363.13
+<pre>Median: 188.64
+Mean: 153.3023215230037
+Average: 153.3023215230037
+Variance: 11737.12610169673
+Minimum: 15.8
+Maximum: 385.0
 </pre>
 </div>
 </div>
@@ -13939,31 +13940,31 @@ Maximum: 363.13
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[202]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s1">&#39;sample_data.csv&#39;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="n">usecols</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,),</span> <span class="n">unpack</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s1">&#39;tesla_sample_data.csv&#39;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">usecols</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">unpack</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <span class="c1"># Calculate returns by obtaining the difference between two successive array elements</span>
-<span class="c1"># and dividing by the previous value</span>
+<span class="c1"># and dividing by the previous value.</span>
 <span class="n">returns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">/</span> <span class="n">data</span><span class="p">[</span> <span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># Resulting diff() array is one element short of the close prices array</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Standard deviation:&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">returns</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Standard deviation:&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">returns</span><span class="p">),</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
 
-<span class="c1"># Calculates the natural logarithm of the close prices then the differences </span>
+<span class="c1"># Returns a tuple that contains the indices that indicate a positive return.</span>
+<span class="n">positiveIndices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">returns</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Indices with positive returns:&quot;</span><span class="p">,</span> <span class="n">positiveIndices</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># Calculates the natural logarithm of the close prices then the differences.</span>
 <span class="n">logarithmicReturns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
 
-<span class="c1"># Returns a tuple that contains the indices that indicate a positive return</span>
-<span class="n">positiveIndices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">returns</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Indices with positive returns:&quot;</span><span class="p">,</span> <span class="n">positiveIndices</span><span class="p">)</span>
-
-<span class="c1"># Volatility measures the price variation of a financial security</span>
-<span class="c1"># Historical price data (logarithmic returns) can be used to calculate historical volatility</span>
+<span class="c1"># Volatility measures the price variation of a financial security.</span>
+<span class="c1"># Historical price data (logarithmic returns) can be used to calculate historical volatility.</span>
 <span class="n">annualVolatility</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">logarithmicReturns</span><span class="p">)</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">logarithmicReturns</span><span class="p">)</span>
-<span class="n">annualVolatility</span> <span class="o">=</span> <span class="n">annualVolatility</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">1.</span> <span class="o">/</span> <span class="mf">252.</span><span class="p">)</span>
+<span class="n">annualVolatility</span> <span class="o">=</span> <span class="n">annualVolatility</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">1.</span> <span class="o">/</span> <span class="mf">252.</span><span class="p">)</span> <span class="c1"># There are around 252 trading days in a year</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Annual Volatility:&quot;</span><span class="p">,</span> <span class="n">annualVolatility</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Annual Volatility:&quot;</span><span class="p">,</span> <span class="n">annualVolatility</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Monthly Volatility:&quot;</span><span class="p">,</span> <span class="n">annualVolatility</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">1.</span> <span class="o">/</span> <span class="mf">12.</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Monthly Volatility:&quot;</span><span class="p">,</span> <span class="n">annualVolatility</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">1.</span> <span class="o">/</span> <span class="mf">12.</span><span class="p">),</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13980,11 +13981,102 @@ Maximum: 363.13
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Standard deviation: 0.012922134436826306
-Indices with positive returns: (array([ 0,  1,  4,  5,  6,  7,  9, 10, 11, 12, 16, 17, 18, 19, 21, 22, 23,
-       25, 28], dtype=int64),)
-Annual Volatility: 129.27478991115132
-Monthly Volatility: 37.318417377317765
+<pre>Standard deviation: 0.03199734404234775 
+
+Indices with positive returns: (array([   5,    8,    9,   10,   11,   12,   15,   16,   19,   22,   23,
+         27,   31,   32,   33,   35,   36,   37,   39,   42,   44,   45,
+         48,   51,   52,   53,   56,   60,   61,   62,   63,   65,   66,
+         67,   73,   74,   78,   79,   81,   82,   84,   85,   88,   89,
+         91,   93,   95,   96,   99,  100,  101,  102,  103,  106,  111,
+        112,  117,  118,  119,  120,  121,  122,  125,  126,  128,  130,
+        131,  132,  133,  134,  142,  143,  144,  145,  146,  148,  150,
+        154,  156,  157,  160,  165,  166,  167,  168,  169,  170,  171,
+        174,  176,  181,  184,  185,  186,  187,  188,  190,  193,  195,
+        199,  200,  201,  203,  204,  205,  207,  208,  209,  215,  216,
+        217,  219,  223,  224,  228,  229,  230,  231,  233,  234,  238,
+        239,  240,  241,  246,  248,  251,  252,  253,  255,  257,  261,
+        265,  266,  267,  268,  272,  274,  276,  280,  282,  283,  290,
+        291,  293,  294,  296,  300,  304,  305,  306,  307,  309,  312,
+        314,  317,  320,  321,  322,  323,  325,  326,  327,  329,  332,
+        333,  336,  337,  341,  344,  346,  347,  349,  350,  354,  356,
+        357,  359,  361,  362,  363,  366,  370,  373,  375,  376,  377,
+        379,  385,  386,  387,  388,  390,  391,  394,  395,  396,  397,
+        398,  399,  401,  402,  403,  404,  406,  407,  409,  410,  411,
+        412,  413,  416,  419,  421,  425,  427,  428,  429,  432,  435,
+        438,  439,  444,  449,  450,  451,  454,  455,  459,  460,  463,
+        464,  467,  470,  477,  478,  479,  482,  487,  488,  490,  492,
+        493,  495,  496,  497,  498,  500,  503,  507,  508,  510,  512,
+        513,  514,  515,  518,  524,  526,  529,  530,  531,  533,  534,
+        535,  538,  542,  543,  546,  549,  552,  553,  555,  556,  557,
+        558,  559,  564,  567,  568,  570,  572,  574,  576,  580,  581,
+        584,  585,  587,  589,  590,  592,  594,  597,  598,  601,  602,
+        603,  606,  608,  609,  610,  611,  614,  615,  616,  617,  620,
+        621,  622,  623,  626,  628,  630,  631,  639,  640,  641,  642,
+        643,  644,  645,  646,  648,  652,  654,  655,  656,  660,  663,
+        666,  668,  669,  672,  673,  674,  675,  676,  677,  678,  684,
+        685,  686,  687,  688,  689,  691,  692,  694,  696,  698,  699,
+        700,  702,  704,  705,  706,  707,  709,  711,  714,  715,  716,
+        718,  719,  720,  721,  723,  724,  729,  730,  731,  733,  736,
+        737,  738,  739,  742,  743,  744,  745,  746,  747,  750,  751,
+        752,  753,  755,  756,  758,  759,  760,  762,  763,  766,  768,
+        769,  770,  772,  773,  774,  776,  777,  778,  779,  782,  787,
+        788,  789,  790,  792,  793,  794,  795,  798,  800,  804,  806,
+        807,  808,  811,  812,  814,  815,  816,  817,  818,  822,  823,
+        826,  827,  828,  829,  832,  836,  839,  841,  842,  843,  844,
+        848,  850,  854,  856,  860,  861,  863,  865,  867,  868,  870,
+        871,  872,  873,  876,  877,  878,  879,  881,  886,  887,  891,
+        892,  893,  895,  896,  897,  900,  902,  905,  907,  908,  909,
+        910,  912,  914,  916,  918,  919,  920,  923,  924,  926,  930,
+        933,  934,  939,  942,  944,  945,  949,  950,  955,  957,  958,
+        963,  964,  966,  967,  971,  972,  973,  974,  976,  977,  979,
+        980,  981,  982,  987,  989,  990,  993,  995,  996,  997,  999,
+       1000, 1001, 1003, 1005, 1006, 1012, 1015, 1019, 1020, 1022, 1023,
+       1024, 1025, 1026, 1027, 1029, 1030, 1032, 1033, 1035, 1036, 1037,
+       1038, 1039, 1044, 1045, 1047, 1048, 1049, 1050, 1052, 1054, 1056,
+       1060, 1061, 1062, 1065, 1066, 1072, 1073, 1074, 1080, 1081, 1083,
+       1084, 1085, 1087, 1090, 1092, 1093, 1094, 1097, 1099, 1100, 1102,
+       1103, 1105, 1107, 1109, 1110, 1111, 1119, 1125, 1126, 1127, 1128,
+       1130, 1131, 1134, 1137, 1142, 1145, 1147, 1148, 1150, 1153, 1155,
+       1156, 1157, 1158, 1160, 1164, 1165, 1166, 1167, 1168, 1172, 1175,
+       1176, 1181, 1184, 1186, 1188, 1189, 1190, 1194, 1197, 1198, 1199,
+       1200, 1201, 1202, 1205, 1207, 1209, 1210, 1213, 1215, 1218, 1219,
+       1221, 1223, 1224, 1226, 1227, 1231, 1232, 1235, 1239, 1241, 1242,
+       1245, 1248, 1249, 1250, 1251, 1253, 1255, 1258, 1259, 1260, 1264,
+       1265, 1266, 1267, 1269, 1270, 1271, 1273, 1277, 1279, 1282, 1283,
+       1288, 1289, 1290, 1291, 1292, 1297, 1298, 1299, 1300, 1301, 1303,
+       1306, 1307, 1309, 1310, 1311, 1312, 1315, 1317, 1318, 1322, 1324,
+       1331, 1333, 1334, 1335, 1338, 1340, 1342, 1345, 1347, 1348, 1349,
+       1352, 1355, 1357, 1358, 1361, 1362, 1363, 1365, 1367, 1369, 1372,
+       1374, 1375, 1376, 1379, 1382, 1384, 1385, 1386, 1388, 1393, 1395,
+       1399, 1400, 1404, 1405, 1406, 1409, 1412, 1414, 1415, 1416, 1417,
+       1420, 1422, 1423, 1424, 1425, 1427, 1428, 1429, 1430, 1432, 1434,
+       1435, 1436, 1437, 1438, 1439, 1440, 1443, 1444, 1447, 1448, 1449,
+       1450, 1451, 1456, 1458, 1461, 1463, 1465, 1469, 1473, 1476, 1478,
+       1479, 1481, 1482, 1483, 1485, 1486, 1487, 1489, 1492, 1493, 1494,
+       1495, 1500, 1501, 1503, 1508, 1509, 1510, 1511, 1512, 1514, 1515,
+       1516, 1517, 1522, 1524, 1526, 1527, 1530, 1531, 1535, 1538, 1541,
+       1545, 1546, 1548, 1554, 1557, 1561, 1563, 1564, 1565, 1566, 1568,
+       1569, 1570, 1571, 1573, 1575, 1576, 1581, 1583, 1587, 1588, 1590,
+       1591, 1594, 1600, 1601, 1602, 1605, 1607, 1608, 1609, 1612, 1613,
+       1614, 1620, 1622, 1625, 1626, 1627, 1629, 1630, 1631, 1633, 1634,
+       1635, 1636, 1639, 1640, 1642, 1643, 1647, 1649, 1650, 1651, 1652,
+       1653, 1656, 1658, 1660, 1662, 1664, 1665, 1666, 1667, 1668, 1671,
+       1672, 1675, 1677, 1678, 1679, 1680, 1686, 1687, 1689, 1691, 1693,
+       1695, 1696, 1697, 1699, 1700, 1701, 1702, 1704, 1705, 1706, 1709,
+       1712, 1714, 1715, 1716, 1719, 1720, 1724, 1726, 1727, 1729, 1731,
+       1733, 1737, 1738, 1739, 1740, 1741, 1744, 1745, 1746, 1747, 1749,
+       1750, 1751, 1755, 1756, 1757, 1758, 1761, 1763, 1767, 1768, 1769,
+       1770, 1772, 1774, 1776, 1778, 1780, 1782, 1785, 1786, 1787, 1789,
+       1792, 1793, 1795, 1799, 1800, 1801, 1804, 1805, 1806, 1810, 1812,
+       1814, 1815, 1816, 1817, 1823, 1826, 1827, 1828, 1829, 1830, 1831,
+       1833, 1835, 1838, 1839, 1843, 1845, 1848, 1851, 1853, 1857, 1859,
+       1860, 1861, 1863, 1865, 1866, 1867, 1869, 1873, 1875, 1876, 1877,
+       1880, 1884, 1888], dtype=int64),) 
+
+Annual Volatility: 371.7345851185199 
+
+Monthly Volatility: 107.31053139263564 
+
 </pre>
 </div>
 </div>
@@ -13998,16 +14090,16 @@ Monthly Volatility: 37.318417377317765
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="References">References<a class="anchor-link" href="#References">&#182;</a></h2><blockquote><p>Idris, I. (2015). NumPy Beginner's Guide (3rd ed.). Birmingham, United Kingdom: Packt Publishing.</p>
-<p>Quantivity. (2011, February 21). Why Log Returns. Retrieved from quantivity.wordpress.com: 
-<a href="https://quantivity.wordpress.com/2011/02/21/why-log-returns/">https://quantivity.wordpress.com/2011/02/21/why-log-returns/</a></p>
-<p>SciPy Community. (2017, June 10). Array creation, 1.13. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.13.0/user/basics.creation.html">https://docs.scipy.org/doc/numpy-1.13.0/user/basics.creation.html</a></p>
-<p>SciPy Community. (2017, June 10). Indexing, 1.13. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html">https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html</a></p>
-<p>SciPy Community. (2017, June 10). NumPy Reference, 1.13. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.13.0/reference/">https://docs.scipy.org/doc/numpy-1.13.0/reference/</a></p>
-<p>SciPy Community. (2017, June 10). Statistics, 1.13. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.statistics.html">https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.statistics.html</a></p>
-<p>SciPy Community. (2017, June 10). What is NumPy?, 1.13. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html">https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html</a></p>
+<p>Quantivity. (2011, February 21). Why Log Returns. Retrieved from quantivity.wordpress.com: <a href="https://quantivity.wordpress.com/2011/02/21/why-log-returns/">https://quantivity.wordpress.com/2011/02/21/why-log-returns/</a></p>
+<p>SciPy Community. (2018, January 8). Array creation, 1.14. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.14.0/user/basics.creation.html">https://docs.scipy.org/doc/numpy-1.14.0/user/basics.creation.html</a></p>
+<p>SciPy Community. (2018, January 8). Indexing, 1.14. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.14.0/reference/arrays.indexing.html">https://docs.scipy.org/doc/numpy-1.14.0/reference/arrays.indexing.html</a></p>
+<p>SciPy Community. (2018, January 8). NumPy Reference, 1.14. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.14.0/reference/index.html">https://docs.scipy.org/doc/numpy-1.14.0/reference/index.html</a></p>
 <p>SciPy Community. (2018, January 8). numpy.concatenate, 1.14. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.concatenate.html">https://docs.scipy.org/doc/numpy/reference/generated/numpy.concatenate.html</a></p>
+<p>SciPy Community. (2018, January 8). numpy.loadtxt, 1.14. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.loadtxt.html">https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.loadtxt.html</a></p>
 <p>SciPy Community. (2018, January 8). numpy.reshape, 1.14. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html">https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html</a></p>
 <p>SciPy Community. (2018, January 8). numpy.split, 1.14. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.split.html">https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.split.html</a></p>
+<p>SciPy Community. (2018, January 8). Statistics, 1.14. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.14.0/reference/routines.statistics.html">https://docs.scipy.org/doc/numpy-1.14.0/reference/routines.statistics.html</a></p>
+<p>SciPy Community. (2018, January 8). What is NumPy?, 1.14. Retrieved from docs.scipy.org: <a href="https://docs.scipy.org/doc/numpy-1.14.0/user/whatisnumpy.html">https://docs.scipy.org/doc/numpy-1.14.0/user/whatisnumpy.html</a></p>
 <p>VanderPlas, J. (2016). Python Data Science Handbook (1st ed.). Sebastopol, California, United States of America: O’Reilly Media.</p>
 <p>VanderPlas, J. (2017, Junuary 5). Understanding Data Types in Python. Retrieved from github.com: <a href="https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/02.01-Understanding-Data-Types.ipynb">https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/02.01-Understanding-Data-Types.ipynb</a></p>
 </blockquote>
