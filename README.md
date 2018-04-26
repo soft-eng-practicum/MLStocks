@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/soft-eng-practicum/MLStocks/blob/master/Cover_Image.png" width="700"/>
+</p>
+
 # Team Name: MLStocks
 
 [Section 1: Project Introduction](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Section_1.ipynb)
