@@ -4,15 +4,15 @@
 
 # Team Name: MLStocks
 
-[Section 1: Project Introduction](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Section_1.ipynb)
+[Section 1: Project Introduction](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Introduction.ipynb)
 
-[Section 2: Python Basics](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_02/Section_2.ipynb)
+[Section 2: Python Basics](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_02/Python_Basics.ipynb)
 
 [Section 3: Prerequisite Financial Information](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_03/Prerequisite_Financial_Information.ipynb)
 
 [Section 4: Numpy Library](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_04/NumPy.ipynb)
 
-[Section 5: Pandas Library](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_05/pandas.ipynb)
+[Section 5: Pandas Library](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_05/Pandas.ipynb)
 
 [Section 6: Plotting](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_06/Plotting.ipynb)
 
