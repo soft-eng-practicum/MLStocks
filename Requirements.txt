@@ -18,4 +18,4 @@ analysis and make comparisons between individual stocks and their sectors and th
 Platforms/Frameworks:
 -	Python
 -	Jupyter Notebook
--	Pycharm
+-	Azure
