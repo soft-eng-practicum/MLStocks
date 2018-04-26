@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/soft-eng-practicum/MLStocks/blob/master/Cover_Image.png" width="700"/>
+  <img src="MLStocks/Cover_Image.png" width="700"/>
 </p>
 
 # Team Name: MLStocks
