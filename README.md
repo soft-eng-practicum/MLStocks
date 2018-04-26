@@ -1,4 +1,8 @@
 # Team Name: MLStocks
+
+[Section 1](https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Section_1.ipynb)
+
+
 # Project Name: MLStocks
 
 ### Project Links: 
