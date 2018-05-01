@@ -30,7 +30,7 @@
 
 Our Repository: https://github.com/soft-eng-practicum/MLStocks
 
-Progress Tracking Tool: JIRA | http://itec-gunay.duckdns.org:8080/projects/MLSTOCKS
+Progress Tracking Tool: JIRA - http://itec-gunay.duckdns.org:8080/projects/MLSTOCKS
 
 Discord: https://discordapp.com/channels/405777301469659146/405777301469659148
 
