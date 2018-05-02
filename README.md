@@ -80,12 +80,17 @@ Troubleshooting Tip: When trying to run a cell that contains import statements y
 In order to edit and run the exercises in this tutorial you'll need to copy the tutorial over to your own account. 
 Use this link to access the tutorial on Microsoft Azure: https://notebooks.azure.com/MLStocks/libraries/MLStocks
 Once you open the link it'll take you this page. 
-    <img src = "https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Imgs/SignIn.jpg?raw=true">
+    
+<img src = "https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Imgs/SignIn.jpg?raw=true">
 
-    Click the "Sign In" button at the top right and sign in with a Microsoft Account (or create one, if you don't have one already). Then, click the "Clone" button to copy over the tutorial into your own account. Afterwards the following dialogue box shown below will pop up. Click the blue "Clone" button to complete the process. 
+
+Click the "Sign In" button at the top right and sign in with a Microsoft Account (or create one, if you don't have one already). Then, click the "Clone" button to copy over the tutorial into your own account. Afterwards the following dialogue box shown below will pop up. Click the blue "Clone" button to complete the process. 
+
+
 <img src = "https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Imgs/Clone.PNG?raw=true">
 
 Once the project has been cloned, click any of the Sections (preferably in order, if you're going through the tutorial) to open the folder. Once inside, it'll look like this:
+
 <img src = "https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Imgs/OpenSection.PNG?raw=true">
 Click the file ending with a ".ipynb" extension. This will open up a Jupyter Notebook in a new tab. 
 
