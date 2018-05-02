@@ -82,7 +82,7 @@ Use this link to access the tutorial on Microsoft Azure: https://notebooks.azure
 Once you open the link it'll take you this page. 
     
 <p align="center">
-      <img src="https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Imgs/SignIn.jpg?raw=true" />
+      <img src="https://github.com/soft-eng-practicum/MLStocks/blob/master/Section_01/Imgs/SignIn.jpg?raw=true" width="900"/>
 </p>
 
 
